@@ -15,8 +15,4 @@
 </tr>
 </table>
 
-## Conor Fogarty
-
-**Full-Stack Developer · Django + Next.js · Karlsruhe, Germany**
-
 </div>
