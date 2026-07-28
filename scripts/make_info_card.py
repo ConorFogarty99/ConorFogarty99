@@ -14,7 +14,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "info-card.svg")
 STATIC = bool(os.environ.get("STATIC"))
 
-W, H = 480, 480
+W, H = 480, 380
 PAD = 20
 TITLEBAR_H = 30
 KEY_X = PAD
@@ -57,16 +57,6 @@ ROWS = [
     ("kv", "Frontend", "Next.js, React, TypeScript"),
     ("kv", "Mobile", "React Native, Expo"),
     ("kv", "Infra", "Docker, Redis"),
-    ("gap",),
-    ("sec", "Building"),
-    ("bul", "WePart - online separation platform (IE)"),
-    ("bul", "CareCo - elderly care coordination"),
-    ("bul", "Mauras Motors - driving school site"),
-    ("gap",),
-    ("sec", "Also"),
-    ("bul", "CRT-style island history videos"),
-    ("bul", "KiCAD PCBs + addressable LED matrices"),
-    ("bul", "Generative graphics in Python"),
 ]
 
 def esc(s):
